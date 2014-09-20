@@ -21,14 +21,14 @@ my %WriteMakefileArgs = (
   "NAME" => "Device::WebIO::PCDuino",
   "PREREQ_PM" => {
     "Device::PCDuino" => 0,
-    "Device::WebIO" => "0.001",
+    "Device::WebIO" => "0.002",
     "Moo" => 0,
     "namespace::clean" => 0
   },
   "TEST_REQUIRES" => {
     "Test::Pod" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -37,7 +37,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Device::PCDuino" => 0,
-  "Device::WebIO" => "0.001",
+  "Device::WebIO" => "0.002",
   "Moo" => 0,
   "Test::Pod" => 0,
   "namespace::clean" => 0
